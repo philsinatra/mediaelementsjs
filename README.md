@@ -17,7 +17,7 @@ But browser vendors couldn't agree on a codec
 Caption files using the _.srt_ file extension must be made executable:
 
 ```shell
-chmod+x captions.srt
+chmod +x captions.srt
 ```
 
 ### Possible .srt Generators

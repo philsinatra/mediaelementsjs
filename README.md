@@ -106,3 +106,16 @@ v.play();
 
 btnCC.addEventListener('click', toggleCaptions, false);
 ```
+
+## SVG Icons
+
+There is a built in class that can help deal with `.svg` icon files not loading properly, even if MIME support for `svg` has been added to the server.
+
+```html
+class="no-svg"
+
+<!-- example -->
+<div class="no-svg">
+  <video controls="controls" height="360" preload="none" width="640">
+```
+
